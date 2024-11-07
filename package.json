@@ -5,7 +5,8 @@
   "type": "commonjs",
   "main": "server.js",
   "scripts": {
-    "dev": "nodemon -r dotenv/config --experimental-json-modules server/server.js"
+    "dev": "nodemon -r dotenv/config --experimental-json-modules server/server.js",
+    "start": "node -r dotenv/config --experimental-json-modules server/server.js"
   },
   "keywords": [
     "Express",
