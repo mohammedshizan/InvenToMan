@@ -4,12 +4,12 @@ const Footer = () => {
     return (
         <footer className="bg-gray-800 text-white py-8">
             <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="flex flex-col md:flex-row justify-between items-center text-center md:text-left space-y-4 md:space-y-0">
-                    <div className="mb-4 md:mb-0">
+                <div className="flex flex-col md:flex-row justify-between items-start space-y-6 md:space-y-0">
+                    <div className="text-center md:text-left">
                         <h5 className="text-lg font-semibold mb-2">Inventory Management System</h5>
                         <p>Helping you keep track of stock.</p>
                     </div>
-                    <div>
+                    <div className="text-center md:text-right space-y-4">
                         <h5 className="text-lg font-semibold mb-2">Contact Us</h5>
                         <p className="flex items-center justify-center md:justify-start">
                             <MapPinIcon className="h-5 w-5 mr-2 text-gray-400" />
@@ -40,5 +40,6 @@ const Footer = () => {
 };
 
 export default Footer;
+
 
 
