@@ -8,7 +8,7 @@ dotenv.config({
     path: './env'
 })
 
-const __dirname = path.resolve();
+
 const app = express()
 
 connectDB()
