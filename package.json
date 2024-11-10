@@ -6,7 +6,7 @@
   "main": "server.js",
   "scripts": {
     "dev": "nodemon -r dotenv/config --experimental-json-modules server/server.js",
-    "start": "node -r dotenv/config --experimental-json-modules server/server.js",
+    "start": "node server/server.js",
     "build": "npm install && npm install --prefix client && npm run build --prefix client"
   },
   "keywords": [
